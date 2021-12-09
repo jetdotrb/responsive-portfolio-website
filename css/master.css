@@ -1,0 +1,29 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+/* COLORS */
+:root {
+  --primary: #FF6464;
+  --secondary: #00A8CC;
+  --tertiary: #EDF7FA;
+  --dark: #21243D;
+  --light: #8695A4;
+}
+
+/* BASE STYLES - FOR MOBILE MEDIUM DEVICES */
+body {
+  color: var(--dark);
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+  background-color: #fff;
+}
+
+/* FOR TABLET VIEW */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* FOR DESKTOP VIEW */
+@media (min-width: 992px) {
+
+}
