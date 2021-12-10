@@ -1,4 +1,4 @@
-# responsive-portfolio-website-v1
+# responsive-portfolio-website
 
 #### A simple but beautiful responsive portfolio website for Designers/Developers!
 
@@ -10,7 +10,7 @@ If you want to see the entire layout, here is the
 
 # Demo 👇
 If you want to see the demo, here is the
-<a href="https://jettedmys.github.io/responsive-portfolio-website-v1"> link</a>.
+<a href="https://jettedmys.github.io/responsive-portfolio-website"> link</a>.
 
 # Features 📋
 
