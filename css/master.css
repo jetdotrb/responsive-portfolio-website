@@ -23,10 +23,6 @@ header {
   margin: 0 0 50px;
 }
 
-.navbar {
-  height: 75px;
-}
-
 .navbar > .container {
   justify-content: flex-end;
 }
