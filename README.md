@@ -24,3 +24,8 @@ If you want to see the demo, here is the
 - CSS
 - Bootstrap v5
 - JavaScript
+
+# Updates
+
+## December 10, 2021
+### Done home page and its responsiveness on mobile, tablet and desktop views.
