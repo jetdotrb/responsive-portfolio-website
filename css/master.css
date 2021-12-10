@@ -185,6 +185,39 @@ footer #social + div {
 
 /* FOR TABLET VIEW */
 @media (min-width: 768px) and (max-width: 991px) {
+  /* HEAD SECTION */
+  #head-section .box {
+    align-items: flex-start;
+    text-align: left;
+  }
+  #head-section #img {
+    width: 190px;
+    height: 190px;
+    margin: 0;
+  }
+  #head-section h1 {
+    width: auto;
+  }
+  #head-section p {
+    width: auto;
+  }
+
+  /* BLOG SECTION */
+  #blog-section .box-header, #work-section .box-header {
+    padding: 24px 0;
+  }
+  #blog-section h2, #work-section h2 {
+    text-align: left;
+  }
+
+  /* WORK SECTION */
+  #work-section .thumbnail {
+    height: 200px;
+    margin: 0 auto;
+  }
+  #work-section hr {
+    margin: 17px 0 0 0;
+  }
 
 }
 
