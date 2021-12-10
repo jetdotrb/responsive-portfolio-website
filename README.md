@@ -27,5 +27,4 @@ If you want to see the demo, here is the
 
 # Updates
 
-## December 10, 2021
-### Done home page and its responsiveness on mobile, tablet and desktop views.
+- December 10, 2021 <p>✅ Home page and its responsiveness on mobile, tablet and desktop views.</p> 
