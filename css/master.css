@@ -18,6 +18,10 @@ body {
   background-color: #fff;
 }
 
+hr {
+  background-color: #E0E0E0;
+}
+
 /* HEADER */
 header {
   margin: 0 0 50px;
@@ -87,39 +91,42 @@ header {
   margin: 0 0 58px;
 }
 
-/* BLOG SECTION */
-#blog-section {
+/* POST SECTION */
+#post-section {
   background-color: var(--tertiary);
   padding: 0 0 10px 0;
 }
-#blog-section .box, #work-section .box-header {
+#post-section .box, #work-section .box-header {
   background-color: #fff;
   padding: 24px 17px;
   margin: 0 0 17px;
 }
-#blog-section .box-header {
+#post-section .box-site {
+
+}
+#post-section .box-header {
   background-color: transparent;
   margin: 0;
 }
-#blog-section h2, #work-section h2 {
+#post-section h2, #work-section h2 {
   font-size: 18px;
   font-weight: 200;
   text-align: center;
   margin: 0;
 }
-#blog-section h3 {
+#post-section h3 {
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
   margin: 0 0 13px;
 }
-#blog-section .caption {
+#post-section .caption {
   margin: 0 0 19px;
 }
-#blog-section div span {
+#post-section div span {
   margin: 0 24px;
 }
-#blog-section p {
+#post-section p {
   margin: 0;
 }
 
@@ -177,6 +184,39 @@ header {
   margin: 17px 0;
 }
 
+/* BLOG SECTION */
+#blog-section .box {
+  max-width: 682px;
+  margin: 0 0 18px;
+}
+#blog-section h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0;
+}
+#blog-section h3 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38px;
+  margin: 0 0 5px;
+}
+#blog-section .caption {
+  margin: 0 0 17px;
+}
+#blog-section div span:nth-child(1) {
+  margin: 0 15px;
+}
+#blog-section div span:nth-child(2) {
+  color: var(--light);
+}
+#blog-section p {
+  margin: 0 0 24px;
+}
+#blog-section hr {
+  margin: 0;
+}
+
 /* FOOTER */
 footer  {
   margin: 150px 0 0 0;
@@ -197,12 +237,12 @@ footer #social + div {
 }
 
 @media (max-width: 575px) {
-  /* BLOG SECTION */
-  #blog-section .box, #work-section .box-header {
+  /* POST SECTION */
+  #post-section .box, #work-section .box-header {
     max-width: 350px;
     margin: 0 auto 17px;
   }
-  #blog-section .box-header {
+  #post-section .box-header {
     margin: 0 auto;
   }
 
@@ -215,12 +255,12 @@ footer #social + div {
 
 /* FOR MOBILE LARGE VIEW */
 @media(min-width: 576px) and (max-width: 767px) {
-  /* BLOG SECTION */
-  #blog-section .box, #work-section .box-header {
+  /* POST SECTION */
+  #post-section .box, #work-section .box-header {
     width: 400px;
     margin: 0 auto 17px;
   }
-  #blog-section .box-header {
+  #post-section .box-header {
     margin: 0 auto;
   }
 
@@ -284,19 +324,19 @@ footer #social + div {
     width: auto;
   }
 
-  /* BLOG SECTION */
-  #blog-section .box-header, #work-section .box-header {
+  /* POST SECTION */
+  #post-section .box-header, #work-section .box-header {
     padding: 24px 0;
   }
-  #blog-section .box-header {
+  #post-section .box-header {
     display: flex;
     justify-content: space-between;
   }
-  #blog-section a {
+  #post-section a {
     color: var(--secondary);
     text-decoration: none;
   }
-  #blog-section h2, #work-section h2 {
+  #post-section h2, #work-section h2 {
     text-align: left;
   }
 
@@ -313,20 +353,22 @@ footer #social + div {
 
 /* FOR DESKTOP VIEW */
 @media (min-width: 992px) {
-  header {
-    margin: 0 0 150px;
-  }
-
   .container {
     max-width: 900px;
   }
 
   /* HEADER */
+  header {
+    margin: 0;
+  }
   .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
   }
 
   /* HEAD SECTION */
+  #head-section {
+    margin: 178px 0 0;
+  }
   #head-section .box {
     align-items: flex-start;
     text-align: left;
@@ -350,36 +392,36 @@ footer #social + div {
     margin: 0 0 71px;
   }
 
-  /* BLOG SECTION */
-  #blog-section .box {
+  /* POST SECTION */
+  #post-section .box {
     padding: 24px 23px;
   }
-  #blog-section .box-header, #work-section .box-header {
+  #post-section .box-header, #work-section .box-header {
     background-color: transparent;
     padding: 24px 0;
     margin: 0;
   }
-  #blog-section .box-header {
+  #post-section .box-header {
     display: flex;
     justify-content: space-between;
   }
-  #blog-section a {
+  #post-section a {
     color: var(--secondary);
     text-decoration: none;
   }
-  #blog-section h2, #work-section h2 {
+  #post-section h2, #work-section h2 {
     font-size: 20px;
     text-align: left;
   }
-  #blog-section h3 {
+  #post-section h3 {
     font-size: 26px;
     margin: 0 0 17px;
   }
-  #blog-section .caption {
+  #post-section .caption {
     font-size: 18px;
     margin: 0 0 11px;
   }
-  #blog-section div span {
+  #post-section div span {
     margin: 0 26px;
   }
 
@@ -407,5 +449,10 @@ footer #social + div {
   }
   #work-section hr {
     margin: 25px 0;
+  }
+
+  /* BLOG SECTION */
+  #blog-section {
+    margin: 106px 0 0;
   }
 }
