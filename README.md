@@ -2,10 +2,10 @@
 
 #### A simple but beautiful responsive portfolio website for Designers/Developers!
 
-Hi everyone! I wrote this responsive portfolio website using HTML, CSS, Bootstrap v5, and JavaScript. The UI layout design is not mine, I just found it on Figma community and used it as a mock up. The UI designer is Tinjo Thomas, he uploaded the layout on Figma as an open source and can be use for any work.
+Hello, everyone! I used HTML, CSS, and Bootstrap v5 to create this responsive portfolio website. The UI layout design is not my own, I found it on Figma community and used it as a mockup. Tinjo Thomas is the UI designer, and he shared the layout on Figma as an open source that can be used for any work.
 
 # UI Layout 👇
-If you want to see the entire layout, here is the
+If you want to see the entire UI layout, here is the
 <a href="https://www.figma.com/community/file/882879599442878081"> link</a>.
 
 # Demo 👇
@@ -17,14 +17,22 @@ If you want to see the demo, here is the
 - Home
 - Blog
 - Works
+- Work Detail
 
-# Technologies I Used 🛠️
+# Built With 🛠️
 
 - HTML
 - CSS
 - Bootstrap v5
-- JavaScript
 
 # Updates
 
-- December 10, 2021 <p>✅ Home page and its responsiveness on mobile, tablet and desktop views.</p> 
+- December 11, 2021 <p>✅ Responsive Blog, Work, and Work Detail Page.</p>
+- December 10, 2021 <p>✅ Responsive Home Page.</p>
+
+## Contact
+
+Twitter - [@jettedumayas](https://twitter.com/jettedumayas)
+LinkedIn - (https://www.linkedin.com/in/jette-dumayas/)
+
+Project Link: [https://github.com/jettedmys/responsive-portfolio-website](https://github.com/jettedmys/responsive-portfolio-website)
