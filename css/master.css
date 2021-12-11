@@ -155,6 +155,11 @@ header {
   background-size: cover;
   background-position: center;
 }
+#work-section #work4 .thumbnail {
+  background: url('../images/thumbnail-4.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 #work-section h3 {
   font-size: 24px;
   font-weight: 700;
@@ -185,13 +190,14 @@ header {
 }
 
 /* BLOG SECTION */
-#blog-section .box {
+#blog-section .box, #work-section .box-header-page {
   max-width: 682px;
   margin: 0 0 18px;
 }
-#blog-section h2 {
+#blog-section h2, #work-section .box-header-page h2 {
   font-size: 30px;
   font-weight: 700;
+  text-align: left;
   line-height: 60px;
   margin: 0;
 }
@@ -353,6 +359,9 @@ footer #social + div {
 
 /* FOR DESKTOP VIEW */
 @media (min-width: 992px) {
+  .section {
+    margin: 106px 0 0;
+  }
   .container {
     max-width: 900px;
   }
@@ -451,8 +460,4 @@ footer #social + div {
     margin: 25px 0;
   }
 
-  /* BLOG SECTION */
-  #blog-section {
-    margin: 106px 0 0;
-  }
 }
