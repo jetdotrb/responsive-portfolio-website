@@ -17,11 +17,17 @@ body {
   font-family: 'Heebo', sans-serif;
   background-color: #fff;
 }
-
 hr {
   background-color: #E0E0E0;
 }
-
+.title {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--dark);
+}
+.title:hover, .title:focus {
+  color: var(--primary);
+}
 /* HEADER */
 header {
   margin: 0 0 50px;
@@ -90,6 +96,9 @@ header {
   padding: 0 12px;
   margin: 0 0 58px;
 }
+#head-section button:hover {
+  background-color: var(--dark);
+}
 
 /* POST SECTION */
 #post-section {
@@ -100,9 +109,6 @@ header {
   background-color: #fff;
   padding: 24px 17px;
   margin: 0 0 17px;
-}
-#post-section .box-site {
-
 }
 #post-section .box-header {
   background-color: transparent;
@@ -157,6 +163,11 @@ header {
 }
 #work-section #work4 .thumbnail {
   background: url('../images/thumbnail-4.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#work-section #work5 .thumbnail {
+  background: url('../images/thumbnail-5.png') no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -228,16 +239,22 @@ footer  {
   margin: 150px 0 0 0;
   padding: 50px 25px;
 }
-footer #social {
+footer #contact {
   display: flex;
   justify-content: space-between;
   width: 232px;
   margin: 0 auto 26px;
 }
-footer #social .iconify {
+footer #contact a {
+  color: var(--dark);
+}
+footer #contact a:hover {
+  color: var(--primary);
+}
+footer #contact .iconify {
   font-size: 30px;
 }
-footer #social + div {
+footer #contact + div {
   font-size: 14px;
   text-align: center;
 }
@@ -414,9 +431,12 @@ footer #social + div {
     display: flex;
     justify-content: space-between;
   }
-  #post-section a {
+  #post-section .box-header a {
     color: var(--secondary);
     text-decoration: none;
+  }
+  #post-section .box-header a:hover {
+    color: var(--primary);
   }
   #post-section h2, #work-section h2 {
     font-size: 20px;
